@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-classpath-element ../../../../target/classes?>
+<?scenebuilder-classpath-element ../../../../../core/target/bitcoinj-0.12-SNAPSHOT.jar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import cryptwallet.controls.ClickableBitcoinAddress?>
+<AnchorPane maxHeight="Infinity" maxWidth="Infinity" minHeight="200.0" minWidth="300.0" prefHeight="474.0" prefWidth="800.0" style="-fx-background-color: black;" styleClass="root-pane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cryptwallet.MainController">
+  <children>
+    <Label layoutX="19.0" layoutY="11.0" text="BALANCE" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <HBox alignment="CENTER_LEFT" layoutX="143.0" layoutY="6.0" prefHeight="30.0" prefWidth="384.0" AnchorPane.leftAnchor="143.0" AnchorPane.rightAnchor="273.0" AnchorPane.topAnchor="6.0">
+      <children>
+        <Label fx:id="balance" text="0.00" textFill="WHITE" underline="false">
+          <font>
+            <Font size="25.0" />
+          </font>
+        </Label>
+        <Label font="$x1" text=" " textFill="WHITE" />
+          <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+            <effect>
+              <ColorAdjust>
+                <input>
+                  <BoxBlur height="20.0" iterations="0" width="20.0" />
+                </input>
+              </ColorAdjust>
+            </effect>
+            <image>
+              <Image url="@bitcoin_logo_plain.png" />
+            </image>
+          </ImageView>
+      </children>
+    </HBox>
+      <ImageView fitHeight="313.0" fitWidth="312.0" layoutX="236.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cryptlogo2.png" />
+         </image>
+      </ImageView>
+    <ClickableBitcoinAddress fx:id="addressControl" layoutY="45.0" prefHeight="21.0" prefWidth="391.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="195.0" />
+    <StackPane layoutX="19.0" layoutY="81.0" prefHeight="312.0" prefWidth="435.0" style="-fx-border-color: lightgrey; -fx-border-style: dashed" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="346.0" AnchorPane.topAnchor="81.0">
+         <children>
+            <ListView fx:id="transactionsList" opacity="0.66" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+    </StackPane>
+      <Rectangle height="69.0" layoutX="613.0" layoutY="281.0" stroke="#246cd0" strokeType="OUTSIDE" strokeWidth="4.0" width="73.0" />
+      <ImageView fitHeight="49.0" fitWidth="46.0" layoutX="627.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@settings_icon.png" />
+         </image>
+      </ImageView>
+     <Button layoutX="600.0" layoutY="282.0" minWidth="81.0" onAction="#settingsClicked" opacity="0.0" prefHeight="69.0" prefWidth="100.0" style="-fx-base: white;" styleClass="fat-button" text="Settings" />
+      <Rectangle height="120.0" layoutX="-15.0" layoutY="418.0" stroke="#246cd0" strokeType="OUTSIDE" strokeWidth="4.0" width="156.0" />
+      <Text fill="WHITE" layoutX="-18.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRIMARY" textAlignment="CENTER" wrappingWidth="173.00000739097595">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Rectangle height="69.0" layoutX="557.0" layoutY="123.0" stroke="#246cd0" strokeType="INSIDE" strokeWidth="4.0" width="183.0" />
+      <Text fill="WHITE" layoutX="563.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEND MONEY" textAlignment="CENTER" wrappingWidth="173.00000739097595">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+     <Button id="sendMoneyOut" fx:id="sendMoneyOutBtn" alignment="CENTER" layoutX="563.0" layoutY="140.0" mnemonicParsing="false" onAction="#sendMoneyOut" opacity="0.0" prefHeight="57.0" prefWidth="173.0" style="-fx-base: #246cd0; -fx-font-weight: bold;" styleClass="fat-button" text="Send Money" />
+    <HBox fx:id="controlsBox" alignment="TOP_LEFT" fillHeight="true" layoutX="14.0" layoutY="347.0" minHeight="16.0" prefHeight="36.0" prefWidth="243.0" spacing="10.0" translateY="60.0" visible="true" AnchorPane.bottomAnchor="17.0">
+      <children>
+        <Button defaultButton="true" mnemonicParsing="false" opacity="0.0" prefHeight="65.0" prefWidth="137.0" styleClass="fat-button" text="Primary" />
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>
