@@ -1,9 +1,11 @@
 
 <img src="http://cryptsafe.io/Pictures/cryptlogo2.png" width="400">
 
-# __**CRYPT Wallet Beta**__
+# __**CRYPT**__
 
-## Welcome to CRYPT. A simple and clean Bitcoin wallet.
+##__[DOWNLOAD CRYPT For Windows & Mac](http://bit.ly/CRYPT-Download "Download CRYPT Bitcoin Wallet")__
+
+### Welcome to CRYPT. A simple and clean Bitcoin wallet.
 
 This is a simple and clean Bitcoin wallet. An frictionless way to connect to the bitcoin blockchain, receive a wallet address and backup code, and start storing and sending bitcoins.
 
