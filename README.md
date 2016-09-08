@@ -1,5 +1,5 @@
 
-<img src="http://cryptsafe.io/Pictures/cryptlogoshadow.png" width="400">
+<img align="center" src="http://cryptsafe.io/Pictures/cryptlogoshadow.png" width="400">
 
 # __**CRYPT**__
 
@@ -7,7 +7,7 @@
 
 ### Welcome to CRYPT. A simple and clean Bitcoin wallet.
 
-This is a simple and clean Bitcoin wallet. A frictionless way to connect to the bitcoin blockchain, receive a wallet address and backup phrase, and start storing and sending bitcoins!
+This is an easy to use and completely decentral Bitcoin wallet. A frictionless way to connect to the bitcoin blockchain, receive a wallet address and backup phrase, and start storing and sending bitcoins!
 
 * CRYPT is 100% free. We do not charge any transaction fees
 * We never touch or hold any of your funds what so ever
