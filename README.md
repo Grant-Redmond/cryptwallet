@@ -1,5 +1,5 @@
 
-<img align="center" src="http://cryptsafe.io/Pictures/cryptlogoshadow.png" width="400">
+<img align="center" src="http://cryptsafe.io/Pictures/crypt-logo.png" width="400">
 
 # __**CRYPT**__
 
