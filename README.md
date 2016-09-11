@@ -16,18 +16,16 @@ This is an easy to use and completely decentral Bitcoin wallet. A frictionless w
 * We never require you to input any personal information, emails or passwords
 * All transactions and storage are handled by the decentralized ledger of the Bitcoin blockchain.
 
-__As soon as you install, we strongly recommened writting down you unique recovery phrase located in settings.__ As long as you have this written down, you will always be able to retrieve your Bitcoins. Even if you accidentally delete or uninstall your wallet.
+__As soon as you install, we strongly recommened writting down your unique recovery phrase located in settings.__ As long as you have this written down, you will always be able to retrieve your Bitcoins. Even if you accidentally delete or uninstall your wallet.
 
-__Windows Users__ (We Installs To The C:/ Directory To Avoid Having To Run As Administrator. If You Change Directory Installation To Program Files, You Will Need To Run CRYPT As Administrator Or Else You'll Receive And Error "Access Denied")
+__Windows Users__ (We Install To The C:/ Directory To Avoid Having To Be Run As An Administrator. If You Change The Directory Installation To Program Files, You Will Need To Run CRYPT As Administrator Or Else You'll Receive And Error "Access Denied")
 
-CRYPT Will Check For & Prompt You To Update As We Roll Out New Versions. Don't worry, this will not reset your wallet or change your keys. If it ever did, just re-enter your recovery phrase and CRYPT will connect to your keys.
+CRYPT Will Check For & Prompt You To Update As We Roll Out New Versions. Don't worry, this will not reset your wallet or change your keys. If it ever did, just re-enter your recovery phrase that you've saved/written down somewhere safe, and CRYPT will connect to your keys/funds.
 
 Built With Love In Java 8 on IntelliJ Community Edition using the [BitcoinJ Library](https://github.com/bitcoinj/bitcoinj)
 
 
-**This is our first public release**; so download, install and give CRYPT a spin. We'd love to hear your feedback, if you run into any errors, or want any functionality additions let us know!
-
-**This is a Beta**, so only move and store small amounts until final release!
+**This is our first public release**; so download, install and give CRYPT a spin. We'd love to hear your feedback, if you run into any errors, or want any functionality additions let us know! We plan on slowly building out CRYPT with loads of awesome features with each update!
 
 Developers and people interested in contributing, feel free to make a branch and play around. 
 
